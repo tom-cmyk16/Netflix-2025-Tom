@@ -1,10 +1,59 @@
-.hader_outer_continar{
-    position: sticky;
-    top: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(20,20,20 );
-    height: 10vh;
+.header_outer_container {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(20, 20, 20);
+  height: 10vh;
+  color: white;
+  transition: all 0.5s ease-in-out;
+  z-index: 1;
+}
 
+.header_container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_left ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.header_left ul li {
+  cursor: pointer;
+}
+.header_left ul li span {
+  font-size: 29px;
+  font-weight: 500;
+  
+  color: red;
+}
+.header_left ul li:hover {
+  color: gray;
+}
+
+
+
+.header_write ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.header_write ul li {
+  cursor: pointer;
+  font-size: 28px;
+}
+.header_write ul li:hover {
+  color: gray;
 }

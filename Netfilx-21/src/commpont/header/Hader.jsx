@@ -1,13 +1,19 @@
 import React from "react";
 import "./Hader.css";
+import SearchIcon from "@mui/icons-material/Search";
+import NotificationsIcon from "@mui/icons-material/Notifications";
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+
 function Hader() {
   return (
-    <div className="hader_outer_continar">
-      <div className="heade_continar">
-
-        <div className="heade_left">
+    <div className="header_outer_container">
+      <div className="header_container">
+        <div className="header_left">
           <ul>
-            <li>Nitflix</li>
+            <li>
+              <span>NITFLIX</span>
+            </li>
             <li>Home</li>
             <li>TvShows</li>
             <li>Movies</li>
@@ -17,8 +23,14 @@ function Hader() {
           </ul>
         </div>
 
-
-
+        <div className="header_write">
+          <ul>
+            <li><SearchIcon/></li>
+            <li>< NotificationsIcon/></li>
+            <li><AccountCircleIcon/></li>
+            <li><ArrowDropDownIcon/></li>
+          </ul>
+        </div>
 
       </div>
     </div>
