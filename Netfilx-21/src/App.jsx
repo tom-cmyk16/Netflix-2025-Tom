@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       <h1>tom the great</h1>
+      <h2>hana the smart</h2>
     </>
   )
 }
