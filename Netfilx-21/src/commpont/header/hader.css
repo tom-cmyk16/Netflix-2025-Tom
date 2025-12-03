@@ -1,0 +1,10 @@
+.hader_outer_continar{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20,20,20 );
+    height: 10vh;
+
+}
